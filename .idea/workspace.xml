@@ -28,12 +28,15 @@
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Ingame_Search.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/templates/base.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/templates/duo_checker.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/templates/home.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/templates/individual_result.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/templates/individual_search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/ingame_result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/ingame_search.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/templates/signup.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/templates/specific_champion_wr.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/templates/user.html" afterDir="false" />
@@ -61,6 +64,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -68,12 +72,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../" />
   </component>
   <component name="ProjectId" id="20ec7RRIOhE6VxHeIdNlLYHqRvH" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
   </component>

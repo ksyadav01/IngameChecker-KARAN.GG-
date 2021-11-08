@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+
+<form method = "POST" action="/individual_search/duo_checker">
+    <h2>In Game Player Search</h2>
+    <h2>Worried Beandog Reformed is in your queue? Trying to avoid TrdBlaster? Enter all the summoner names and see if they're in game!
+        (May not work against TrdBlaster's 50 name changes)</h2>
+    <p>Summoner Name List (Seperated by commas as so: ", ") <input type = "text" name = "NameList" /></p>
+    <input type="submit" >
+
+</form>
+
+{% endblock %}

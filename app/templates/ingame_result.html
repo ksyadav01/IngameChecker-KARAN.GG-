@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block content %}
+{{name}}
+    <table>
+      {%for row in inTbl%}
+         <tr>
+            {%for col in row%}
+              <td>{{col}}</td>
+            {%endfor%}
+         </tr>
+      {%endfor%}
+    </table>
+
+    <table>
+      {%for row in outTbl%}
+         <tr>
+            {%for col in row%}
+              <td>{{col}}</td>
+            {%endfor%}
+         </tr>
+      {%endfor%}
+    </table>
+{% endblock %}
