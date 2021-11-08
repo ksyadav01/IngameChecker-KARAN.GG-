@@ -33,7 +33,7 @@ def home():
             try:
                 playerInGame = watcher.spectator.by_summoner(region, player['id'])
                 InGameList.append(name)
-                
+
             except:
                 NotInGameList.append(name)
         # InGameList, NotInGameList = ingame_search.player_ingame(InitialList, API_KEY)
