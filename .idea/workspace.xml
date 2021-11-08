@@ -11,7 +11,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="abd7d664-d233-4d8a-acf8-0e5a715644d4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../CSE 216 hw/Python practice/.idea/Python practice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSE 216 hw/hw 4/hw4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSE 216 hw/hw 5/CSE 216 hw.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSE 216 projects/CSE 216 projects.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSE 216 projects/hw3/.idea/hw3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSE 310/.idea/CSE 310.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSE 310/yadav-karan-assignment2/.idea/yadav-karan-assignment2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/IngameChecker.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/duo_checker.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/individual_result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/individual_search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/specific_champion_wr.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/your_data.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Internship Coding Tests/DisputeSoft/DisputeSoft.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New OPGG/.idea/New OPGG.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Program Files (x86)/Steam/steamapps/workshop/content/431960/884307090/.idea/new.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Program Files/nodejs/node_modules/npm/node_modules/clone/clone.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STARS-main/.idea/STARS-main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Single file java workspace/Single file java workspace.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../karan.yadav/.idea/karan.yadav.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../karangg/.idea/karangg.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/.idea/test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/untitled.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../karangg/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../karangg/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test/app/wsgi.py" beforeDir="false" />
     </list>
@@ -38,7 +75,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\IngameChecker\app" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="wsgi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -92,21 +134,25 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="949" height="279" key="GridCell.Tab.0.bottom" timestamp="1636408710191">
+    <state x="725" y="318" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1636410476158">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="949" height="279" key="GridCell.Tab.0.bottom/1920.0.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1636408710191" />
-    <state width="949" height="279" key="GridCell.Tab.0.center" timestamp="1636408710191">
+    <state x="725" y="318" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1636410476158" />
+    <state width="949" height="279" key="GridCell.Tab.0.bottom" timestamp="1636410264972">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="949" height="279" key="GridCell.Tab.0.center/1920.0.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1636408710191" />
-    <state width="949" height="279" key="GridCell.Tab.0.left" timestamp="1636408710191">
+    <state width="949" height="279" key="GridCell.Tab.0.bottom/1920.0.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1636410264972" />
+    <state width="949" height="279" key="GridCell.Tab.0.center" timestamp="1636410264972">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="949" height="279" key="GridCell.Tab.0.left/1920.0.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1636408710191" />
-    <state width="949" height="279" key="GridCell.Tab.0.right" timestamp="1636408710191">
+    <state width="949" height="279" key="GridCell.Tab.0.center/1920.0.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1636410264972" />
+    <state width="949" height="279" key="GridCell.Tab.0.left" timestamp="1636410264972">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="949" height="279" key="GridCell.Tab.0.right/1920.0.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1636408710191" />
+    <state width="949" height="279" key="GridCell.Tab.0.left/1920.0.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1636410264972" />
+    <state width="949" height="279" key="GridCell.Tab.0.right" timestamp="1636410264972">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="949" height="279" key="GridCell.Tab.0.right/1920.0.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1636410264972" />
   </component>
 </project>
