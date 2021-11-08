@@ -21,7 +21,7 @@ def home():
         InitialList = request.form.get('NameList')
         InGameList, NotInGameList = Ingame_Search.player_ingame(InitialList, API_KEY)
         return redirect(url_for('ingame_list'))
-    return render_template('ingame_search.html')
+    return "<h1>Welcome to CodingX</h1>" #render_template('ingame_search.html')
 
 
 @app.route('/ingame_list')
