@@ -1,8 +1,7 @@
 from flask import Flask, render_template, request, url_for
 from werkzeug.utils import redirect
 import os
-import Ingame_Search
-
+from app import ingame_search
 app = Flask(__name__)
 API_KEY = os.environ.get('API_KEY')
 
@@ -19,7 +18,7 @@ def home():
         global InGameList
         global NotInGameList
         InitialList = request.form.get('NameList')
-        InGameList, NotInGameList = Ingame_Search.player_ingame(InitialList, API_KEY)
+        InGameList, NotInGameList = ingame_search.player_ingame(InitialList, API_KEY)
         return redirect(url_for('ingame_list'))
     return "<h1>Welcome to CodingX</h1>" #render_template('ingame_search.html')
 
