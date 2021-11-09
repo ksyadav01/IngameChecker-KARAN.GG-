@@ -4,7 +4,6 @@ from riotwatcher import LolWatcher, ApiError
 import os
 import time
 
-# from app import ingame_search
 
 app = Flask(__name__)
 API_KEY = os.environ.get('API_KEY')
@@ -42,7 +41,6 @@ def home():
                     NotInGameList.append(name)
                 if name in InGameList:
                     InGameList.remove(name)
-        # InGameList, NotInGameList = ingame_search.player_ingame(InitialList, API_KEY)
         time.sleep(1)
         return redirect(url_for('ingame_result'))
     return render_template('ingame_search.html')
@@ -50,13 +48,6 @@ def home():
 
 @app.route('/ingame_result')
 def ingame_result():
-    # print(champion)
-    # if individual_search_type == "champion_wr":
-    #     table = individual_search.champion_search(summoner_name, champion, game_list, match_history_list)
-    # if individual_search_type == "your_data":
-    #     table = individual_search.your_search(summoner_name, game_list)
-    # print(stats)
-    # inTbl=zip(*InGameList), outTbl=zip(*NotInGameList)
     print(InGameList)
     print(NotInGameList)
     return render_template('ingame_result.html', a=InGameList, b=NotInGameList)
