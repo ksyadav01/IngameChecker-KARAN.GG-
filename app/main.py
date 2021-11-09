@@ -26,8 +26,8 @@ def home():
         watcher = LolWatcher(API_KEY)
         region = "na1"
         nameList = InitialList.split(", ")
-        InGameList.append('Players In Game')
-        NotInGameList.append('Players Not In Game')
+        # InGameList.append('Players In Game')
+        # NotInGameList.append('Players Not In Game')
 
         for name in nameList:
             player = watcher.summoner.by_name(region, "name")
