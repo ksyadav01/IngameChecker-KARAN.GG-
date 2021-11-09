@@ -1,37 +1,39 @@
 {% extends "base.html" %}
 {% block content %}
 {{name}}
-<div style="display:flex;justify-content:center;align-items:center;margin-top:5%;">
-    <table style="width: 50%">
-        <tr>
-            <th style="color:white;font-family:monospace;font-size:1.5rem;text-align:center;wrap:nowrap;text-decoration:underline">Players In Game</th>
-            <th style="color:white;font-family:monospace;font-size:1.5rem;text-align:center;wrap:nowrap;text-decoration:underline">Players Not In Game</th>
-        </tr>
-        <tr style="padding-top:2%">
-            <td>
-                <table>
-                        {%for row in a%}
-                     <tr>
-                          <td style="color:white;font-family:monospace;font-size:1rem;text-align:center;wrap:nowrap">{{row}}</td>
-                     </tr>
-                        {%endfor%}
-                </table>
-            </td>
-            <td style="display:flex;flex-direction:column;justify-content:center;align-items:center">
-                <table >
-                        {%for row in b%}
-                     <tr>
-                          <td style="color:white;font-family:monospace;font-size:1rem;text-align:center;wrap:nowrap">{{row}}</td>
-                     </tr>
-                        {%endfor%}
-                </table>
-            </td>
-        </tr>
-    </table>
+<div style="display:flex;flex-direction:column;justify-content:center;align-items:center;">
+    <div style="display:flex;justify-content:center;align-items:center;margin-top:5%;">
+        <table style="width: 50%">
+            <tr>
+                <th style="color:white;font-family:monospace;font-size:1.5rem;text-align:center;wrap:nowrap;text-decoration:underline">Players In Game</th>
+                <th style="color:white;font-family:monospace;font-size:1.5rem;text-align:center;wrap:nowrap;text-decoration:underline">Players Not In Game</th>
+            </tr>
+            <tr style="padding-top:2%">
+                <td style="display:flex;flex-direction:column;justify-content:center;align-items:center">
+                    <table>
+                            {%for row in a%}
+                         <tr>
+                              <td style="color:white;font-family:monospace;font-size:1rem;text-align:center;wrap:nowrap">{{row}}</td>
+                         </tr>
+                            {%endfor%}
+                    </table>
+                </td>
+                <td style="display:flex;flex-direction:column;justify-content:center;align-items:center">
+                    <table >
+                            {%for row in b%}
+                         <tr>
+                              <td style="color:white;font-family:monospace;font-size:1rem;text-align:center;wrap:nowrap">{{row}}</td>
+                         </tr>
+                            {%endfor%}
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
     <a href="https://karangg.herokuapp.com/">
         <button class="button button1">Home</button>
     </a>
-    </div>
+</div>
 
 <!--    <table>-->
 <!--         <tr>-->
