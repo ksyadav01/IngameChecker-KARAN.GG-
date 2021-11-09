@@ -26,6 +26,7 @@ def home():
         watcher = LolWatcher(API_KEY)
         region = "na1"
         nameList = InitialList.split(", ")
+        print(nameList)
         # InGameList.append('Players In Game')
         # NotInGameList.append('Players Not In Game')
 
