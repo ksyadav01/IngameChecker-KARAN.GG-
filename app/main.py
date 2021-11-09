@@ -22,7 +22,7 @@ def home():
         global NotInGameList
 
         InitialList = request.form.get('NameList')
-        watcher = LolWatcher(key)
+        watcher = LolWatcher(API_KEY)
         region = "na1"
         nameList = InitialList.split(", ")
         InGameList.append('Players In Game')
@@ -38,7 +38,7 @@ def home():
                 NotInGameList.append(name)
         # InGameList, NotInGameList = ingame_search.player_ingame(InitialList, API_KEY)
         return redirect(url_for('ingame_list'))
-    return "<h1>Welcome to CodingX</h1>"  # render_template('ingame_search.html')
+    return render_template('ingame_search.html')
 
 
 @app.route('/ingame_list')
