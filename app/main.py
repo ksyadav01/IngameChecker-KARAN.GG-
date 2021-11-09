@@ -14,7 +14,7 @@ NotInGameList = []  # Players not in game
 
 
 @app.route('/')
-@app.route('/home')
+@app.route('/home', methods=['POST', 'GET'])
 def home():
     if request.method == 'POST':
         global InitialList
