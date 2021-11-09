@@ -50,6 +50,7 @@ def ingame_result():
     # if individual_search_type == "your_data":
     #     table = individual_search.your_search(summoner_name, game_list)
     # print(stats)
+    # inTbl=zip(*InGameList), outTbl=zip(*NotInGameList)
     print(InGameList)
     print(NotInGameList)
-    return render_template('ingame_result.html', inTbl=zip(*InGameList), outTbl=zip(*NotInGameList), a=InGameList, b=NotInGameList)
+    return render_template('ingame_result.html', a=InGameList, b=NotInGameList)
