@@ -2,18 +2,26 @@
 {% block content %}
 {{name}}
     <table>
-            {%for row in a%}
-         <tr>
-              <td>{{row}}</td>
-         </tr>
-            {%endfor%}
-    </table>
-    <table>
-            {%for row in b%}
-         <tr>
-              <td>{{row}}</td>
-         </tr>
-            {%endfor%}
+        <tr>
+            <td>
+                <table>
+                        {%for row in a%}
+                     <tr>
+                          <td>{{row}}</td>
+                     </tr>
+                        {%endfor%}
+                </table>
+            </td>
+            <td>
+                <table>
+                        {%for row in b%}
+                     <tr>
+                          <td>{{row}}</td>
+                     </tr>
+                        {%endfor%}
+                </table>
+            </td>
+        </tr>
     </table>
 
 <!--    <table>-->
