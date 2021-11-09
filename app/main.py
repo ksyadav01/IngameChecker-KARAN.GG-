@@ -32,12 +32,9 @@ def home():
 
         for name in nameList:
             player = watcher.summoner.by_name(region, "name")
-            try:
-                print(watcher.spectator.by_summoner(region, player['id']))
-                InGameList.append(name)
-
-            except:
-                NotInGameList.append(name)
+            playGame = watcher.spectator.by_summoner(region, player['id'])
+            InGameList.append(name)
+            NotInGameList.append(name)
         # InGameList, NotInGameList = ingame_search.player_ingame(InitialList, API_KEY)
         return redirect(url_for('ingame_result'))
     return render_template('ingame_search.html')
