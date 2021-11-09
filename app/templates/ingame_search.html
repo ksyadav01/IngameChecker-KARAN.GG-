@@ -1,13 +1,14 @@
 {% extends "base.html" %}
 {% block content %}
-
-<form method = "POST" action="/home">
-    <h2>In Game Player Search</h2>
-    <h5>Worried Beandog Reformed is in your queue? Trying to avoid TrdBlaster? Enter all the summoner names and see if they're in game!
+<div style="display:flex;justify-content:center;align-items:center">
+    <h2 style="color:white;font-family:monospace;font-size:2rem">In Game Player Search</h2>
+    <h5 style="color:white;font-family:monospace;font-size:1.5rem">Worried Beandog Reformed is in your queue? Trying to avoid TrdBlaster? Enter all the summoner names and see if they're in game!
         (May not work against TrdBlaster's 50 name changes)</h5>
-    <p>Summoner Name List (Seperated by commas as so: ", ") <input type = "text" name = "NameList" /></p>
-    <input type="submit" >
-
-</form>
+    <form method = "POST" action="/home">
+        <input type = "text" name = "NameList" />
+        <p style="color:white;font-family:monospace;font-size:1rem">Summoner Name List (Seperated by commas as so: ", ") </p>
+        <input type="submit" >
+    </form>
+</div>
 
 {% endblock %}
