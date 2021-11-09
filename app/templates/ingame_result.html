@@ -2,21 +2,20 @@
 {% block content %}
 {{name}}
     <table>
-         <tr>
-             <td>test test</td>
             {%for row in inTbl%}
+         <tr>
               <td>{{row}}</td>
-            {%endfor%}
          </tr>
+            {%endfor%}
     </table>
 
-    <table>
-         <tr>
-            {%for row in outTbl%}
-              <td>{{row}}</td>
-            {%endfor%}
-         </tr>
-    </table>
+<!--    <table>-->
+<!--         <tr>-->
+<!--            {%for row in outTbl%}-->
+<!--              <td>{{row}}</td>-->
+<!--            {%endfor%}-->
+<!--         </tr>-->
+<!--    </table>-->
 {{a}}
 {{b}}
 {% endblock %}
