@@ -2,6 +2,7 @@ from flask import Flask, render_template, request, url_for
 from werkzeug.utils import redirect
 from riotwatcher import LolWatcher, ApiError
 import os
+import time
 
 # from app import ingame_search
 
@@ -35,6 +36,7 @@ def home():
             except:
                 NotInGameList.append(name)
         # InGameList, NotInGameList = ingame_search.player_ingame(InitialList, API_KEY)
+        time.sleep(3)
         return redirect(url_for('ingame_result'))
     return render_template('ingame_search.html')
 
