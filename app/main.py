@@ -28,7 +28,6 @@ def home():
 
         for name in nameList:
             player = watcher.summoner.by_name(region, name)
-            playGame = watcher.spectator.by_summoner(region, player['id'])
             try:
                 playerInGame = watcher.spectator.by_summoner(region, player['id'])
                 InGameList.append(name)
