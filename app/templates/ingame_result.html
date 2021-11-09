@@ -9,10 +9,10 @@
                 <th style="color:white;font-family:monospace;font-size:1.5rem;text-align:center;wrap:nowrap;text-decoration:underline">Players Not In Game</th>
             </tr>
             <tr style="padding-top:2%;">
-                <td style="text-align:center;align-items:center;">
-                    <table>
+                <td style="text-align:center">
+                    <table style="width: 100%">
                             {%for row in a%}
-                         <tr style="display: flex;align-items:center;">
+                         <tr>
                               <td style="color:white;font-family:monospace;font-size:1rem;text-align:center;wrap:nowrap">{{row}}</td>
                          </tr>
                             {%endfor%}
