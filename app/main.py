@@ -38,11 +38,11 @@ def home():
             except:
                 NotInGameList.append(name)
         # InGameList, NotInGameList = ingame_search.player_ingame(InitialList, API_KEY)
-        return redirect(url_for('ingame_list'))
+        return redirect(url_for('ingame_result'))
     return render_template('ingame_search.html')
 
 
-@app.route('/ingame_list')
+@app.route('/ingame_result')
 def ingame_result():
     # print(champion)
     # if individual_search_type == "champion_wr":
