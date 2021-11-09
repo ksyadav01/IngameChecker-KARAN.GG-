@@ -8,8 +8,8 @@
                 <th style="color:white;font-family:monospace;font-size:1.5rem;text-align:center;wrap:nowrap;text-decoration:underline">Players In Game</th>
                 <th style="color:white;font-family:monospace;font-size:1.5rem;text-align:center;wrap:nowrap;text-decoration:underline">Players Not In Game</th>
             </tr>
-            <tr style="padding-top:2%">
-                <td style="display:flex;flex-direction:column;justify-content:center;align-items:center">
+            <tr style="padding-top:2%;display:flex;flex-direction:column;justify-content:center;align-items:center">
+                <td style="flex:1">
                     <table>
                             {%for row in a%}
                          <tr>
@@ -18,7 +18,7 @@
                             {%endfor%}
                     </table>
                 </td>
-                <td style="display:flex;flex-direction:column;justify-content:center;align-items:center">
+                <td style="flex:1">
                     <table >
                             {%for row in b%}
                          <tr>
