@@ -20,8 +20,9 @@ def home():
         global InitialList
         global InGameList
         global NotInGameList
-
+        global API_KEY
         InitialList = request.form.get('NameList')
+        print(API_KEY)
         watcher = LolWatcher(API_KEY)
         region = "na1"
         nameList = InitialList.split(", ")
