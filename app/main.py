@@ -43,7 +43,7 @@ def home():
                 if name in InGameList:
                     InGameList.remove(name)
         # InGameList, NotInGameList = ingame_search.player_ingame(InitialList, API_KEY)
-        time.sleep(3)
+        time.sleep(1)
         return redirect(url_for('ingame_result'))
     return render_template('ingame_search.html')
 
