@@ -22,19 +22,18 @@ def home():
         global NotInGameList
         global API_KEY
         InitialList = request.form.get('NameList')
-        print(API_KEY)
         watcher = LolWatcher(API_KEY)
         region = "na1"
         nameList = InitialList.split(", ")
-        print(nameList)
-        # InGameList.append('Players In Game')
-        # NotInGameList.append('Players Not In Game')
 
         for name in nameList:
-            player = watcher.summoner.by_name(region, "name")
+            player = watcher.summoner.by_name(region, name)
             playGame = watcher.spectator.by_summoner(region, player['id'])
-            InGameList.append(name)
-            NotInGameList.append(name)
+            try:
+                playerInGame = watcher.spectator.by_summoner(region, player['id'])
+                InGameList.append(name)
+            except:
+                NotInGameList.append(name)
         # InGameList, NotInGameList = ingame_search.player_ingame(InitialList, API_KEY)
         return redirect(url_for('ingame_result'))
     return render_template('ingame_search.html')

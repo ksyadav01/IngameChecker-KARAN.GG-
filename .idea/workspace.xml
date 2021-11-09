@@ -83,13 +83,35 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\IngameChecker\app" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.ingame_search">
+    <configuration name="ingame_search" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="IngameChecker" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/ingame_search.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="wsgi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="IngameChecker" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -113,6 +135,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ingame_search" />
         <item itemvalue="Python.wsgi" />
       </list>
     </recent_temporary>
@@ -145,21 +168,29 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="725" y="318" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1636410476158" />
-    <state width="949" height="279" key="GridCell.Tab.0.bottom" timestamp="1636410264972">
-      <screen x="0" y="0" width="1920" height="1032" />
+    <state width="949" height="279" key="GridCell.Tab.0.bottom" timestamp="1636438129661">
+      <screen x="1920" y="0" width="1920" height="1032" />
     </state>
     <state width="949" height="279" key="GridCell.Tab.0.bottom/1920.0.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1636410264972" />
-    <state width="949" height="279" key="GridCell.Tab.0.center" timestamp="1636410264972">
-      <screen x="0" y="0" width="1920" height="1032" />
+    <state width="949" height="279" key="GridCell.Tab.0.bottom/1920.0.1920.1032/0.0.1920.1032@1920.0.1920.1032" timestamp="1636438129661" />
+    <state width="949" height="279" key="GridCell.Tab.0.center" timestamp="1636438129661">
+      <screen x="1920" y="0" width="1920" height="1032" />
     </state>
     <state width="949" height="279" key="GridCell.Tab.0.center/1920.0.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1636410264972" />
-    <state width="949" height="279" key="GridCell.Tab.0.left" timestamp="1636410264972">
-      <screen x="0" y="0" width="1920" height="1032" />
+    <state width="949" height="279" key="GridCell.Tab.0.center/1920.0.1920.1032/0.0.1920.1032@1920.0.1920.1032" timestamp="1636438129661" />
+    <state width="949" height="279" key="GridCell.Tab.0.left" timestamp="1636438129660">
+      <screen x="1920" y="0" width="1920" height="1032" />
     </state>
     <state width="949" height="279" key="GridCell.Tab.0.left/1920.0.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1636410264972" />
-    <state width="949" height="279" key="GridCell.Tab.0.right" timestamp="1636410264972">
-      <screen x="0" y="0" width="1920" height="1032" />
+    <state width="949" height="279" key="GridCell.Tab.0.left/1920.0.1920.1032/0.0.1920.1032@1920.0.1920.1032" timestamp="1636438129660" />
+    <state width="949" height="279" key="GridCell.Tab.0.right" timestamp="1636438129661">
+      <screen x="1920" y="0" width="1920" height="1032" />
     </state>
     <state width="949" height="279" key="GridCell.Tab.0.right/1920.0.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1636410264972" />
+    <state width="949" height="279" key="GridCell.Tab.0.right/1920.0.1920.1032/0.0.1920.1032@1920.0.1920.1032" timestamp="1636438129661" />
+    <state x="2381" y="161" key="SettingsEditor" timestamp="1636438272619">
+      <screen x="1920" y="0" width="1920" height="1032" />
+    </state>
+    <state x="2381" y="161" key="SettingsEditor/1920.0.1920.1032/0.0.1920.1032@1920.0.1920.1032" timestamp="1636438272619" />
   </component>
 </project>
