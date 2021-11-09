@@ -41,7 +41,7 @@ def home():
                     NotInGameList.append(name)
                 if name in InGameList:
                     InGameList.remove(name)
-        time.sleep(1)
+        time.sleep(3)
         return redirect(url_for('ingame_result'))
     return render_template('ingame_search.html')
 

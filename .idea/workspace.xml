@@ -31,16 +31,8 @@
       <change afterPath="$PROJECT_DIR$/app/ingame_search.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/duo_checker.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/individual_result.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/individual_search.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/templates/ingame_result.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/templates/ingame_search.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/signup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/specific_champion_wr.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/user.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/your_data.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/wsgi.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Internship Coding Tests/DisputeSoft/DisputeSoft.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../New OPGG/.idea/New OPGG.iml" afterDir="false" />
@@ -82,7 +74,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FlaskProject" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -168,6 +160,10 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="725" y="318" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1636410476158" />
+    <state x="2660" y="271" key="FileChooserDialogImpl" timestamp="1636441620313">
+      <screen x="1920" y="0" width="1920" height="1032" />
+    </state>
+    <state x="2660" y="271" key="FileChooserDialogImpl/1920.0.1920.1032/0.0.1920.1032@1920.0.1920.1032" timestamp="1636441620313" />
     <state width="949" height="279" key="GridCell.Tab.0.bottom" timestamp="1636439268618">
       <screen x="1920" y="0" width="1920" height="1032" />
     </state>
